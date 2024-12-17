@@ -8,7 +8,6 @@ const Associacoes = () => {
   const [produtoSelecionado, setProdutoSelecionado] = useState('');
   const [fornecedorSelecionado, setFornecedorSelecionado] = useState('');
 
-  // Carregar produtos e fornecedores no carregamento da página
   useEffect(() => {
     carregarProdutos();
     carregarFornecedores();
